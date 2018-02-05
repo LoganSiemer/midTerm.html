@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body {
+        background-image: url(woodBG.jpg);
+    }
+
+    a {
+        margin: 10px 20px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .nav {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        justify-content: flex-start;
+        background-color: black;
+        color: white;
+        padding: 10px;
+        height: 40px;
+        font-family: Arial;
+    }
+
+    .space {
+        height: 600px;
+    }
+
+    tr {
+        background-color: red;
+        border: 1px solid black;
+    }
+
+    td {
+        width: 50px;
+        height: 50px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: black;
+        height: auto;
+        padding: 10px;
+        top: 100%;
+        color: white;
+    }
+
+    .footer-logo {
+        width: 60px;
+        height: 40px;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <h1>Products</h1>
+        <a href="thirdTaskP1.html">Home</a>
+        <a href="thirdTaskP3.html">Services</a>
+        <a href="thirdTaskP4.html">Blog</a>
+        <a href="thirdTaskP5.html">Contact us</a>
+    </div>
+    <div class="space">
+        <!-- Create a table that is six columns wide and four rows tall -->
+        <!-- The third cell of the first row will span two rows -->
+        <!-- The sixth cell of the first row will span three rows -->
+        <!-- The first cell of the second row will span three rows -->
+        <!-- The fourth cell of the second row will span two columns -->
+        <!-- The second cell of the third row will span four columns -->
+        <!-- The second cell of the fourth row will span five columns. -->
+        <table>
+            <tr>
+                <td>a</td>
+                <td>a</td>
+                <td rowspan="2">a</td>
+                <td>a</td>
+                <td>a</td>
+                <td rowspan="3">a</td>
+            </tr>
+            <tr>
+                <td rowspan="3">a</td>
+                <td>a</td>
+                <td colspan="2">a</td>
+            </tr>
+            <tr>
+                <td>a</td>
+                <td colspan="4">a</td>
+            </tr>
+            <tr>
+                <td colspan="5">a</td>
+            </tr>
+        </table>
+    </div>
+    <footer>
+        <img class="footer-logo" src="lorem-ipsum-logo.png">
+        <a href="">link</a>
+        <a href="">link</a>
+        <a href="">link</a>
+        <a href="">link</a>
+        <a href="">link</a>
+        <p>© 2018</p>
+    </footer>
+</body>
+
+</html>

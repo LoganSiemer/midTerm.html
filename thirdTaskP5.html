@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    body {
+        background-image: url(woodBG.jpg);
+    }
+
+    a {
+        margin: 10px 20px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        justify-content: flex-start;
+        background-color: black;
+        color: white; 
+        padding: 10px; 
+        height: 40px;
+        font-family: Arial;
+    }
+
+    .container {
+        border-radius: 10px;
+        background-color: #eee;
+        font-family: sans-serif;
+        margin: 40px auto;
+        padding: 20px 40px;
+        width: 600px;
+        border-radius: 4px;
+        z-index: 100;
+    }
+
+    label {
+        width: 150px;
+        text-align: right;
+        padding-right: 10px;
+        padding-top: 10px;
+    }
+
+    input, textarea {
+        
+        border: 1px solid #ccc;
+        width: 300px;
+        font-size: 14px;
+        border-radius: 4px;
+        padding-left: 5px;
+    }
+
+    #cHeader {
+        margin: 10px 20px 30px 20px;
+        border-bottom: 2px solid black;
+    }
+
+    .box1 {
+        font-size: 20px;
+        text-align: right;
+        margin: 5% 25% 5% 10%;
+        padding: 10px;
+    }
+
+    #b1 {
+
+        margin: 10px 0px;
+        display: flex;
+    }
+
+    button {
+        background-color: blue;
+        color: white;
+        padding: 10px 40px;
+        margin: 0px 200px;
+        font-size: 16px;
+        border-radius: 4px;
+    }
+
+    footer {
+        background-color: black;
+        height: auto;
+        padding: 10px;
+        top: 100%;
+        color: white;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .footer-logo {
+        width: 60px;
+        height: 40px;
+    }
+
+    </style>
+</head>
+
+<body class="body">
+    <div class="nav">
+        <h1>Contact</h1>
+        <a href="thirdTaskP1.html">Home</a>
+        <a href="thirdTaskP2.html">Products</a>
+        <a href="thirdTaskP3.html">Services</a>
+        <a href="thirdTaskP4.html">Blog</a>
+    </div>
+    <div class="container">
+        <form>
+            <h1 id="cHeader">Contact Us</h1>
+            <div class="box1">
+                <div id="b1">
+                    <label>First Name:</label>
+                    <input type="text" name="" placeholder="First Name..." required>
+                </div>
+                <div id="b1">
+                    <label>last Name:</label>
+                    <input type="text" name="" placeholder="Last Name..." required>
+                </div>
+                <div id="b1">
+                    <label>Email:</label>
+                    <input type="text" name="" placeholder="email-address@gmail.com" required>
+                </div>
+                <div id="b1">
+                    <label>Phone Number:</label>
+                    <input type="text" name="" placeholder="1-(555)-555-5555" required>
+                </div>
+                <div id="b1">
+                    <label>Message:</label>
+                    <textarea type="text" rows="5" placeholder="Message..." required></textarea>
+                </div>
+            </div>
+            <div>
+                <button>Submit</button>
+            </div>
+        </form>
+    </div>
+    <div class="parallax"></div>
+    <footer>
+        <img class="footer-logo" src="lorem-ipsum-logo.png">
+        <a href="">link</a>
+        <a href="">link</a>
+        <a href="">link</a>
+        <a href="">link</a>
+        <a href="">link</a>
+        <p>© 2018</p>
+    </footer>
+</body>
+
+</html>
